@@ -1,0 +1,53 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700&display=swap');
+
+.notes form{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    width:30%;
+    padding:10px;
+    height:30vh;
+    margin: 10px auto; 
+    background-color: #64B2CD;
+    box-shadow: 7px 8px 15px -3px rgba(0,0,0,0.1);
+    border-radius: 9px;
+    
+}
+input,textarea,button{
+    padding:5px;
+    margin:5px;
+    border:none;
+    
+    
+}
+.createbutton{
+    width:20%;
+    align-self: flex-end;
+}
+textarea{
+    resize: none;
+    border-radius: 6px;
+    background-color: #E8F9FD;
+    outline: none;
+    overflow-y: scroll;
+    font-size: 1.2vw;
+    word-wrap:break-word;
+
+}
+input{
+    background-color: #E8F9FD;
+    border-radius: 6px;
+    padding:10px;
+    font-size: 2vw;
+    outline: none;
+    word-wrap: break-word;
+}
+textarea::-webkit-scrollbar {
+    display: none;
+  }
+  @media (max-width:400px){
+      .notes form{
+        width:40%;
+        height:100%;
+      }
+  }

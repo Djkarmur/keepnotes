@@ -1,0 +1,60 @@
+.mainnote{
+   
+    width:25vw;
+    height: 100%;
+    max-height: 400px;
+    overflow-y: scroll;
+    
+    display: flex;
+    flex-direction: column;
+    margin:30px 10px 0px 10px;
+    background-color:#95D1CC ;
+    box-shadow: 7px 8px 15px -3px rgba(0,0,0,0.1);
+    border-radius: 9px;
+}
+.mainnote::-webkit-scrollbar {
+    display: none;
+  }
+h2,p {
+   margin-left:10px;
+   padding:0;
+   word-wrap: break-word;
+   overflow-y: scroll;
+   
+}
+h2::-webkit-scrollbar {
+    display: none;
+  }
+  p::-webkit-scrollbar {
+    display: none;
+  }
+.delbutton{
+    align-self: flex-end;
+    background-color: rgb(231, 99, 99) !important;
+    width:auto;
+    position:relative; 
+   
+}
+.notecontent{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+p{
+    font-size: 1.2vw;  
+}
+h2{
+    font-size: 2vw;
+}
+.bodycover > .footer{
+    text-align: center;
+    bottom:0;
+    margin-top:50vh ;
+    
+}
+@media(max-width:400px){
+    .mainnote{
+        width:35vw;
+        height:100%;
+    }
+}

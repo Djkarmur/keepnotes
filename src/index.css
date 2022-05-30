@@ -1,0 +1,15 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700&family=Roboto+Flex:opsz,wght@8..144,100;8..144,200;8..144,300;8..144,400;8..144,500&display=swap');
+*{
+    
+    font-family:'Roboto Flex' !important;
+    
+}
+body{
+    background-color:#E8F9FD ;
+    overflow-y: scroll;
+    
+    
+}
+body::-webkit-scrollbar {
+    display: none;
+  }
